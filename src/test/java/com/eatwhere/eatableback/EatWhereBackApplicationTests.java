@@ -1,10 +1,10 @@
-package com.eatable.eatableback;
+package com.eatwhere.eatableback;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EatableBackApplicationTests {
+class EatWhereBackApplicationTests {
 
   @Test
   void contextLoads() {

@@ -1,13 +1,12 @@
-package com.eatable.eatableback;
+package com.eatwhere.eatableback;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EatableBackApplication {
+public class EatWhereBackApplication {
 
   public static void main(String[] args) {
-    SpringApplication.run(EatableBackApplication.class, args);
+    SpringApplication.run(EatWhereBackApplication.class, args);
   }
-
 }

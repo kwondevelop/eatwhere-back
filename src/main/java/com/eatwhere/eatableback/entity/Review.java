@@ -1,4 +1,4 @@
-package com.eatable.eatableback.entity;
+package com.eatwhere.eatableback.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;

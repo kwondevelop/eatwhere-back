@@ -1,4 +1,4 @@
-package com.eatable.eatableback.entity;
+package com.eatwhere.eatableback.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -28,5 +28,6 @@ public class Place {
   @Column(length = 200)
   private String address;
 
-  // (선택) 프론트엔드에서 리뷰 기능 만들 때 쓸 카테고리나 평점 평균을 추가할 수도 있습니다.
+  @Column(length = 500)
+  private String placeUrl;
 }
